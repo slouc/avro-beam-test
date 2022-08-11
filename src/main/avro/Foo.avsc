@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "Foo",
+  "fields": [
+    {
+      "name": "some_timestamp",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "default": 0
+    }
+  ]
+}
